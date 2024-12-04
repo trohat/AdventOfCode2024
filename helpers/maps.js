@@ -4,6 +4,8 @@ const generalDirs = [{ x: 0, y: -1 }, { x: 1, y: 0 }, { x: 0, y: 1 }, { x: -1, y
 
 const diagonalDirs = [{ x: 0, y: -1 }, { x: 1, y: 0 }, { x: 0, y: 1 }, { x: -1, y: 0 }, { x: 1, y: 1}, { x: 1, y: -1}, { x: -1, y: 1}, { x: -1, y: -1}];
 
+const onlyDiagonalDirs = [{ x: 1, y: 1}, { x: 1, y: -1}, { x: -1, y: 1}, { x: -1, y: -1}];
+
 const diagonalDirsArr = [[0, -1], [1, 0], [0, 1], [-1, 0], [1, 1], [1, -1], [-1, 1], [-1, -1]];
 
 const upDirs = diagonalDirs.filter(({x, y}) => y === -1);
