@@ -44,7 +44,6 @@ const task2 = data => {
         }
         result += page[Math.floor(page.length / 2)]
     }
-    console.log(data[1]);
     return result;
 }
 

@@ -1,20 +1,27 @@
-console.log("AOC 2024 - ");
+console.log("AOC 2024 - Day 6: Guard Gallivant");
 
 const splitLines = data => data.split(String.fromCharCode(10));
 
 const prepare = data => data;
 
 const task1 = data => {
-    let result = 0;
-    return result;
+    
 };
 
 const task2 = data => {
-    let result = 0;
-    return result;
+    
 }
 
-let testdata = ``;
+let testdata = `....#.....
+.........#
+..........
+..#.......
+.......#..
+..........
+.#..^.....
+........#.
+#.........
+......#...`;
 
 testdata = prepare(splitLines(testdata));
 
@@ -27,8 +34,8 @@ console.log("Input data:");
 console.log(inputdata);
 
 console.log("");
-
-doEqualTest(task1(testdata), 7);
+7
+doEqualTest(task1(testdata), 41);
 
 console.time("Task 1");
 console.log("Task 1: " + task1(inputdata));
